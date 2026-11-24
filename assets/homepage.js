@@ -1,0 +1,1 @@
+document.querySelectorAll('[data-review]').forEach(button=>button.addEventListener('click',()=>{const track=document.querySelector('.review-track');track.scrollBy({left:Number(button.dataset.review)*(track.querySelector('article').getBoundingClientRect().width+20),behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth'});}));
