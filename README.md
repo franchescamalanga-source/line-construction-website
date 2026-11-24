@@ -1,0 +1,3 @@
+# Line Construction staging website
+Upload all extracted files to GitHub, import in Netlify, publish directory `.`, no build command. Enable Netlify form detection and redeploy, then test inquiries. HubSpot is not connected.
+Staging uses noindex and robots disallow; remove only after approval. Verify original URL inventory and article content; draft article pages link to existing site and must be replaced before domain switch. Images and model PDFs use remote URLs from the existing site; download authorized copies before migration. No full original export was available. Service copy is abbreviated; project names and details are not verified. Do not switch domain yet. Test mobile, forms and SEO.
